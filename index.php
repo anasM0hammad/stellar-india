@@ -18,8 +18,7 @@
   </head>
   <body>
    
-
-   <h1 class="animated fadeIn"><i class="fas fa-home"></i> Steller India</h1>
+ 
 
 
 
