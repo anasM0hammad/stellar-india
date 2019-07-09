@@ -25,7 +25,7 @@ a{
 	min-height: 300px;
 	height: 100%;
 	background-color: black ;
-	opacity: 0.7;
+	opacity: 0.8;
 	padding: 0px;
 	margin: 0px;
 }
@@ -34,14 +34,72 @@ a{
 	border: 1px solid white;
 	/*border-radius: 3%;*/
 	/*margin: 1px;*/
-	padding: 0px;
+	padding: 5px;
 	margin-bottom: 8px;
 }
 
 .mod-list{
-	color: white;
+	color: grey;
 }
 .mod-list:hover{
 	color: skyblue;
 	text-decoration: none;
+}
+
+/* MAIN PAGE */
+
+.social-link {
+	margin-left: 8px ;
+	font-size: 20px;
+}
+
+.social-link:hover{
+	color: white;
+}
+
+
+.carousel1{
+	background-image: url("../img/pic1.jpg") ;
+	background-position: center ;
+	background-repeat: no-repeat ;
+	background-size: cover;
+	height: 80vh ;
+	color: white ;
+	font-weight: bolder;
+	text-decoration: underline;
+	font-family: 'Shrikhand', cursive;
+	color : red ;
+}
+
+.carousel2{
+	background-image: url("../img/pic2.jpg") ;
+	background-position: center ;
+	background-repeat: no-repeat ;
+	background-size: cover;
+	height: 80vh ;
+	color: white ;
+	font-weight: bolder;
+	text-decoration: underline;
+	font-family: 'Shrikhand', cursive;
+	color : red ;
+}
+
+.carousel3{
+	background-image: url("../img/pic3.jpg") ;
+	background-position: center ;
+	background-repeat: no-repeat ;
+	background-size: cover;
+	height: 80vh ;
+	color: white ;
+	font-weight: bolder;
+	text-decoration: underline;
+	font-family: 'Shrikhand', cursive;
+	color : red ;
+}
+
+.service-header{
+	height: 15vh ;
+	background-color: #FF7F00 ;
+	color: white;
+	padding-top: 15px;
 }

@@ -17,7 +17,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <h1><a class="navbar-brand" href="#" style="color: #FF7F00; font-family: 'Shrikhand', cursive;">
-    <b><img src="img/logo.png" height="40" width="40" style="border-radius:50% ;"> 
+    <b><img src="img/logo.png" height="35" width="35" style="border-radius:50% ; margin-right: 5px"> 
     STELLER INDIA
   </b></a></h1>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,7 +44,5 @@
     </ul>
   </div>
 </nav> 
-
-
 
 
