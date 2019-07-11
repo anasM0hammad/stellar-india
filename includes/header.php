@@ -18,7 +18,7 @@
     <link href="./css/style.css" rel="stylesheet">
 
     <!-- LOGO -->
-    <link rel="icon" href="img/logo.png" type="image/gif" sizes="16x16">
+    <link rel="icon" href="img/logo.jpg" style="border-radius: 50%" type="image/gif" sizes="16x16">
 
     <!-- OWL COUROSEL -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">

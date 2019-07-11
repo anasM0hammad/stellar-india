@@ -1,5 +1,5 @@
 body{
-    font-family: 'Overlock', cursive; ;
+    font-family: 'Merriweather' ;
 }
 
 a{
@@ -66,9 +66,8 @@ a{
 	height: 80vh ;
 	color: white ;
 	font-weight: bolder;
-	text-decoration: underline;
 	font-family: 'Shrikhand', cursive;
-	color : red ;
+	color : #364adb ;
 }
 
 .carousel2{
@@ -79,9 +78,8 @@ a{
 	height: 80vh ;
 	color: white ;
 	font-weight: bolder;
-	text-decoration: underline;
 	font-family: 'Shrikhand', cursive;
-	color : red ;
+	color : #364adb ;
 }
 
 .carousel3{
@@ -92,14 +90,34 @@ a{
 	height: 80vh ;
 	color: white ;
 	font-weight: bolder;
-	text-decoration: underline;
 	font-family: 'Shrikhand', cursive;
-	color : red ;
+	color : #364adb ;
 }
 
 .service-header{
-	height: 15vh ;
-	background-color: #FF7F00 ;
+	height: 19vh ;
+	background-image : url('../img/background1.jpg') ;
+	background-repeat: no-repeat ;
+	background-size: cover ;
+	background-position: center;
 	color: white;
-	padding-top: 15px;
+	padding-top: 19px;
 }
+
+#map {
+	height: 70vh;  /* The height is 400 pixels */
+	width: 100%;  /* The width is the width of the web page */
+	border: 2px solid #FF7F00;
+
+   }
+
+   /* MAIN PAGE ENDS */
+
+
+  .main-project{
+	  background-image: url('../img/pic2.jpg');
+	  background-repeat: no-repeat ;
+	  background-size: cover ;
+	  background-position: center ;
+	  height: 80vh ;
+  } 

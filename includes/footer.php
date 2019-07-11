@@ -54,7 +54,7 @@
 	<div class="row m-3 pt-3 pb-3">
 		<div class="col-lg-5">
 			<h2 class="mb-4" style="font-weight: bolder; color: #FF7F00;font-family: 'Shrikhand', cursive;"><img src="img/logo.png" height="60" width="60">
-				 STELLAR INDIA
+				<span style="color : black;"> STELLAR</span> INDIA
 			</h2>
 			<h5><b>MEP Counsultant</b></h5>
 			<p style="font-size: 16px;" >Our Organization provide its specialized consultancy services in Electrical, Low Voltage,
@@ -135,7 +135,7 @@
 	
 	 
 	<div style="background: #2f2e2e">
-	  <p class="text-center"><i class="far fa-copyright"></i> All rights reserved</p>
+	  <p class="text-center">copyright <i class="far fa-copyright"></i> 2019 Stellar India pvt. ltd </p>
 	</div>
     
   </footer>
@@ -149,7 +149,28 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  
+  	<script src="js/main.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap"></script>
+
+
+	<!-- carousel JS -->
+<script src="OwlCarousel2/docs/assets/vendors/jquery.min.js"></script>
+<script src="OwlCarousel2/dist/owl.carousel.js"></script>
+<script type="text/javascript">
+  {
+    var owl = $('.owl-carousel');
+      owl.owlCarousel({
+          items:4,
+          loop:true,
+          margin:10,
+          autoplay:true,
+          autoplayTimeout:2000,
+          autoplayHoverPause:true
+      });
+  }
+</script>
+
+
     <!-- FONT AWESOME -->
     <script src="https://kit.fontawesome.com/34aa8a70b7.js"></script>
   </body>
