@@ -15,8 +15,8 @@
     <ul class="nav justify-content-end container">
         <li class="nav-link"><i class="fas fa-phone"></i> <small>Contact : +91 9560268286</small></li>
     </ul>    
-
 </ul>
+
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <h1><a class="navbar-brand" href="#" style="color: #FF7F00; font-family: 'Shrikhand', cursive;">
@@ -29,20 +29,23 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto justify-content-end container">
-      <li class="nav-item active">
+      <li class="nav-item  <?php if($_SERVER['SCRIPT_NAME'] == "/stellar/index.php") echo "active" ?>">
         <a class="nav-link" href="./index.php"><i class="fas fa-home"></i> Home</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="projects.php"><i class="fas fa-cog"></i> Projects</a>
+      <li class="nav-item <?php if($_SERVER['SCRIPT_NAME'] == "/stellar/about.php") echo "active" ?>">
+        <a class="nav-link" href="about.php"><i class="fas fa-users"></i> About us</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="organisation.php"><i class="fas fa-sitemap"></i> Organization</a>
-      </li>
-      <li class="nav-item">
+      <li class="nav-item <?php if($_SERVER['SCRIPT_NAME'] == "/stellar/services.php") echo "active" ?>">
         <a class="nav-link" href="services.php"><i class="fas fa-concierge-bell"></i> Services</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about.php"><i class="fas fa-users"></i> About us</a>
+      <li class="nav-item <?php if($_SERVER['SCRIPT_NAME'] == "/stellar/projects.php") echo "active" ?>">
+        <a class="nav-link" href="projects.php"><i class="fas fa-cog"></i> Projects</a>
+      </li>
+      <li class="nav-item <?php if($_SERVER['SCRIPT_NAME'] == "/stellar/organisation.php") echo "active" ?>">
+        <a class="nav-link" href="organisation.php"><i class="fas fa-sitemap"></i> Organization</a>
+      </li>
+      <li class="nav-item <?php if($_SERVER['SCRIPT_NAME'] == "/stellar/contact.php") echo "active" ?>">
+        <a class="nav-link" href="contact.php"><i class="fas fa-phone"></i> Contact</a>
       </li>
     </ul>
   </div>

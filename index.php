@@ -9,22 +9,39 @@
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active" >
-      <div class="carousel1">
+      <div class="carousel1 all-carousel">
         <div class="row">
           <div class="container">
-            <div class="col-sm-5">
-              <div class="card animated slideInLeft d-none d-sm-block  shadow p-3 mb-5 bg-white" style="margin-top: 80px; opacity: 0.9;">
-                <div class="card-body p-2" style="border: #364ADB 2px solid;">
-                  <h1 style="margin: 10px;" class="animated slideInUp">MEP SERVICES COUNSULTANTS FOR YOU...</h1>
-                </div>
-              </div>
-            </div>
+            <h1 class="text-center display-4 animated fadeIn" data-delay="2s" style="color: white; margin-top: 20vh;">
+              <b>
+             WELCOME TO MEP COUNSULTING ENGINEERS
+            </b>
+          </h1>
+          </div>
+        </div>
+        <div style="height: 15vh;"></div>
+        <div class="row" style="color: white;">
+          <div class="col-sm-3">
+            <h2 class="text-center"><b><i class="fas fa-globe"></i></b></h2>
+            <p class="text-center" style="font-family: 'Merriweather'">Customized Solution</p>
+          </div>
+          <div class="col-sm-3">
+              <h2 class="text-center"><b><i class="fas fa-rupee-sign"></i></b></h2>
+              <p class="text-center" style="font-family: 'Merriweather'">Minimal Cost</p>
+          </div>
+          <div class="col-sm-3">
+              <h2 class="text-center"><b><i class="fas fa-people-carry"></i></b></h2>
+              <p class="text-center" style="font-family: 'Merriweather'">Productive Management</p>
+          </div>
+          <div class="col-sm-3">
+              <h2 class="text-center"><b><i class="fas fa-grin-alt"></i></b></h2>
+              <p class="text-center" style="font-family: 'Merriweather'">Sure Results</p>
           </div>
         </div>
       </div>
     </div>
     <div class="carousel-item">
-      <div class="carousel2">
+      <div class="carousel2 all-carousel">
         <div class="row">
           <div class="container">
             <div class="col-sm-5">
@@ -39,13 +56,13 @@
       </div>
     </div>
     <div class="carousel-item">
-      <div class="carousel3">
+      <div class="carousel3 all-carousel">
         <div class="row">
           <div class="container">
             <div class="col-sm-5">
               <div class="card animated slideInLeft d-none d-sm-block  shadow p-3 mb-5 bg-white" style="margin-top: 80px; opacity: 0.9;">
                 <div class="card-body p-2" style="border: #364ADB 2px solid;">
-                  <h1 style="margin: 10px;" class="animated slideInUp">AIR CONDITIONING SYSTEM...</h1>
+                  <h1 style="margin: 10px;" class="animated slideInUp">ELECTRICAL SYSTEMS...</h1>
                 </div>
               </div>
             </div>
@@ -54,13 +71,13 @@
       </div>
     </div>
     <div class="carousel-item">
-      <div class="carousel3">
+      <div class="carousel4 all-carousel">
         <div class="row">
           <div class="container">
             <div class="col-sm-5">
               <div class="card animated slideInLeft d-none d-sm-block  shadow p-3 mb-5 bg-white" style="margin-top: 80px; opacity: 0.9;">
                 <div class="card-body p-2" style="border: #364ADB 2px solid;">
-                  <h1 style="margin: 10px;" class="animated slideInUp">AND MANY MORE...</h1>
+                  <h1 style="margin: 10px;" class="animated slideInUp">PLUMBING SYSTEMS</h1>
                 </div>
               </div>
             </div>
@@ -68,6 +85,36 @@
         </div>
       </div>
     </div>
+    <div class="carousel-item">
+        <div class="carousel5 all-carousel">
+          <div class="row">
+            <div class="container">
+              <div class="col-sm-5">
+                <div class="card animated slideInLeft d-none d-sm-block  shadow p-3 mb-5 bg-white" style="margin-top: 80px; opacity: 0.9;">
+                  <div class="card-body p-2" style="border: #364ADB 2px solid;">
+                    <h1 style="margin: 10px;" class="animated slideInUp">HVAC SYSTEMS...</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+          <div class="carousel6 all-carousel">
+            <div class="row">
+              <div class="container">
+                <div class="col-sm-5">
+                  <div class="card animated slideInLeft d-none d-sm-block  shadow p-3 mb-5 bg-white" style="margin-top: 80px; opacity: 0.9;">
+                    <div class="card-body p-2" style="border: #364ADB 2px solid;">
+                      <h1 style="margin: 10px;" class="animated slideInUp">AND MANY MORE...</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
   </div>
 </div>
 
@@ -120,53 +167,22 @@
         <div class="row">
           <div class="owl-carousel owl-theme">
             <div class="item">
-             <div class="card  shadow mb-2 bg-white">
-               <div class="card-body">
-                  <img src="img/building.jpg" class="img-fluid" alt="pic1">
-               </div>
-             </div>
+                <img src="img/building.jpg" class="img-fluid" alt="pic1">
             </div>
             <div class="item">
-              <div class="card   shadow mb-2 bg-white">
-                <div class="card-body">
-                    <img src="img/electrical.jpg" class="img-fluid" alt="pic1">
-                </div>
+                <img src="img/project1.jpg" class="img-fluid" alt="pic1">
               </div>
+            <div class="item">
+                <img src="img/housing.jpg" class="img-fluid" alt="pic1">
+            </div>   
+            <div class="item">
+                 <img src="img/institution.jpg" class="img-fluid" alt="pic1">
             </div>
             <div class="item">
-              <div class="card   shadow mb-2 bg-white">
-                <div class="card-body">
-                    <img src="img/housing.jpg" class="img-fluid" alt="pic1">
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="card   shadow mb-2 bg-white">
-               <div class="card-body">
-                  <img src="img/institution.jpg" class="img-fluid" alt="pic1">
-               </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="card   shadow mb-2 bg-white">
-               <div class="card-body">
                   <img src="img/lowVoltage.jpeg" class="img-fluid" alt="pic1">
-               </div>
-              </div>
             </div>
             <div class="item">
-              <div class="card   shadow mb-2 bg-white">
-                <div class="card-body">
-                    <img src="img/pic1.jpg" class="img-fluid" alt="pic1">
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="card  shadow mb-2 bg-white">
-                <div class="card-body">
-                    <img src="img/pic2.jpg" class="img-fluid" alt="pic1">
-                </div>
-              </div>
+              <img src="img/pic1.jpg" class="img-fluid" alt="pic1">
             </div>
           </div>
         </div>
@@ -200,7 +216,7 @@
     <!-- FIRST ROW OF SERVICES  -->
       <div class="row">
         <div class="col-sm-3">
-          <div class="card shadow p-3 mb-5 bg-white wow slideInLeft" >
+          <div class="card shadow p-3 mb-5 bg-white wow slideInLeft overlay-card" >
               <img src="./img/fireSystem.png" class="card-img-top" alt="...">
             <div class="card-body ">
               <h4 class="text-center">Fire Fighting System</h4>
@@ -209,7 +225,7 @@
         </div>
   
         <div class="col-sm-3">
-          <div class="card shadow p-3 mb-5 bg-white wow slideInUp">
+          <div class="card shadow p-3 mb-5 bg-white wow slideInUp overlay-card">
               <img src="./img/lowVoltage.jpeg" class="card-img-top" alt="...">
             <div class="card-body ">
               <h4 class="text-center">Low Voltage System</h4>
@@ -218,7 +234,7 @@
         </div>
   
         <div class="col-sm-3">
-          <div class="card shadow p-3 mb-5 bg-white wow slideInDown">
+          <div class="card shadow p-3 mb-5 bg-white wow slideInDown overlay-card">
               <img src="./img/hvac.jpg" class="card-img-top" alt="...">
             <div class="card-body ">
               <h4 class="text-center">HVAC System</h4><br>
@@ -226,7 +242,7 @@
           </div>
         </div>
         <div class="col-sm-3">
-          <div class="card shadow p-3 mb-5 bg-white wow slideInRight">
+          <div class="card shadow p-3 mb-5 bg-white wow slideInRight overlay-card">
               <img src="./img/electrical.jpg" class="card-img-top" alt="...">
             <div class="card-body ">
               <h4 class="text-center">Electrical systems</h4>
@@ -240,7 +256,7 @@
       <!-- SECOND ROW OF SERVICES -->
       <div class="row">
           <div class="col-sm-3">
-            <div class="card shadow p-3 mb-5 bg-white wow slideInLeft" >
+            <div class="card shadow p-3 mb-5 bg-white wow slideInLeft overlay-card" >
                 <img src="./img/housing.jpg" class="card-img-top" alt="...">
               <div class="card-body ">
                 <h4 class="text-center">Housing</h4>
@@ -249,7 +265,7 @@
           </div>
     
           <div class="col-sm-3">
-            <div class="card shadow p-3 mb-5 bg-white wow slideInUp">
+            <div class="card shadow p-3 mb-5 bg-white wow slideInUp overlay-card">
                 <img src="./img/hotel.jpg" class="card-img-top" alt="...">
               <div class="card-body ">
                 <h4 class="text-center">Hotels</h4>
@@ -258,7 +274,7 @@
           </div>
     
           <div class="col-sm-3">
-            <div class="card shadow p-3 mb-5 bg-white wow slideInDown">
+            <div class="card shadow p-3 mb-5 bg-white wow slideInDown overlay-card">
                 <img src="./img/building.jpg" class="card-img-top" alt="...">
               <div class="card-body ">
                 <h4 class="text-center">Commercial Buildings</h4>
@@ -266,7 +282,7 @@
             </div>
           </div>
           <div class="col-sm-3">
-            <div class="card shadow p-3 mb-5 bg-white wow slideInRight">
+            <div class="card shadow p-3 mb-5 bg-white wow slideInRight overlay-card">
                 <img src="./img/institution.jpg" class="card-img-top" alt="...">
               <div class="card-body ">
                 <h4 class="text-center">Institutional Building</h4>
@@ -286,8 +302,43 @@
 
 <br><br><br><br><br>
 
+<div class="service-header">
+    <h1 class="text-center"><b>OUR ESTEEMED CLIENTS</b></h1>
+  </div>
+<br><br>
+
+<div class="container">
+
+  <div class="owl-carousel owl-theme">
+    <div class="item client-item">
+        <img src="img/jaypee.png" class="img-fluid client-img" alt="pic1">
+    </div>
+    <div class="item client-item">
+       <img src="img/oyo.png" class="img-fluid client-img" alt="pic1">     
+    </div>
+    <div class="item client-item">
+      <img src="img/voltas.jpg" class="img-fluid client-img" alt="pic1">
+    </div>
+    <div class="item client-item">
+        <img src="img/iith.jpg" class="img-fluid client-img" alt="pic1">
+    </div>
+    <div class="item client-item">
+        <img src="img/maruti.png" class="img-fluid client-img" alt="pic1">
+    </div>
+    <div class="item client-item">
+        <img src="img/candor.jpg" class="img-fluid client-img" alt="pic1">
+    </div>
+    <div class="item client-item">
+        <img src="img/blue-star.png" class="img-fluid client-img" alt="pic1">
+    </div>
+    <div class="item client-item">
+        <img src="img/fab.png" class="img-fluid client-img" alt="pic1">
+    </div>
+  </div>
+</div>
 
 
+<br><br><br><br>
 
 
 

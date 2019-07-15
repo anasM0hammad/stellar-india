@@ -59,31 +59,31 @@ a{
 
 
 .carousel1{
-	background-image: url("../img/pic1.jpg") ;
-	background-position: center ;
-	background-repeat: no-repeat ;
-	background-size: cover;
-	height: 80vh ;
-	color: white ;
-	font-weight: bolder;
-	font-family: 'Shrikhand', cursive;
-	color : #364adb ;
+	background-image: url("../img/pic6.jpg") ;
 }
 
 .carousel2{
-	background-image: url("../img/pic2.jpg") ;
-	background-position: center ;
-	background-repeat: no-repeat ;
-	background-size: cover;
-	height: 80vh ;
-	color: white ;
-	font-weight: bolder;
-	font-family: 'Shrikhand', cursive;
-	color : #364adb ;
+	background-image: url("../img/pic5.jpg") ;
 }
 
 .carousel3{
-	background-image: url("../img/pic3.jpg") ;
+	background-image: url("../img/electrical.jpg") ;
+}
+
+.carousel4{
+	background-image: url("../img/plumbing-system.jpg") ;
+}
+
+.carousel5{
+	background-image: url("../img/hvac-carousel.jpg") ;
+}
+
+.carousel6{
+	background-image: url("../img/pic4.jpg") ;
+}
+
+
+.all-carousel{
 	background-position: center ;
 	background-repeat: no-repeat ;
 	background-size: cover;
@@ -95,13 +95,13 @@ a{
 }
 
 .service-header{
-	height: 19vh ;
+	height: 21vh ;
 	background-image : url('../img/background1.jpg') ;
 	background-repeat: no-repeat ;
 	background-size: cover ;
 	background-position: center;
 	color: white;
-	padding-top: 19px;
+	padding-top: 5vh;
 }
 
 #map {
@@ -115,9 +115,66 @@ a{
 
 
   .main-project{
-	  background-image: url('../img/pic2.jpg');
+	  background-image: url('../img/pic1.jpg');
 	  background-repeat: no-repeat ;
 	  background-size: cover ;
 	  background-position: center ;
 	  height: 80vh ;
   } 
+
+  .overlay-card img{
+	filter: grayscale(90%) ;
+  }
+
+  .overlay-card img:hover {
+	filter: grayscale(0%) ;
+	transition: 0.5s;
+	cursor: pointer;
+  }
+
+
+  .about-image{
+	background-size: cover;
+	background-position: center;
+	/*background-color: black;*/
+	/*opacity: 0.9;*/
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0px;
+	min-height: 300px;
+	
+}
+
+.about-image-inside{
+	min-height: 300px;
+	height: 100%;
+	background-color: black;
+	opacity: 0.8;
+	padding: 45px;
+	margin: 0px;
+	font-weight: bolder;
+}
+
+
+.client-img{
+	margin: 10px ;
+	filter: opacity(30%) ;
+	filter: grayscale(100%) ;
+	cursor: pointer;
+}
+
+.client-img:hover{
+	filter: grayscale(0%) ;
+	transition: 0.5s ;
+}
+
+.client-item{
+	margin: 15px;
+}
+
+.project-box p:hover{
+	cursor: pointer; 
+	color: #FF7F00 ;
+	font-size: 17px;
+	transition: 0.3s ;
+}

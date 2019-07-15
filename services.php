@@ -11,16 +11,26 @@
 
 <!-- Service Page-->
 <!-- Services Carousel -->
+
+<div class="service-header">
+  <h1 class="text-center" style="font-family: 'Shrikhand', cursive;">OUR SERVICES</h1>
+</div>
+
+<br><br><br>
+
 <div class="container-fluid pt-3 pb-3">
-  <div class="container p-3">
+  <!-- <div class="container p-3">
     <div class="row">
       <div class="col-lg-5"></div>
       <div class="col-lg-4">
-        <h2 class="mb-4" style="font-weight: bolder; color: #FF7F00">Our Services</h2>
+        <div class="service-header">
+        <h2 class="mb-4" style="font-weight: bolder;">Our Services</h2>
+        </div>
+       
       </div>
       <div class="col-lg-3"></div>
     </div>
-  </div>
+  </div> -->
   <div class="row">
     <div class="col-lg-1"></div>
     <div class="col-lg-10">
@@ -39,12 +49,6 @@
           </div>
           <div class="item">
             <img src="img/hvac.jpg" class="img-fluid" alt="pic1">
-          </div>
-          <div class="item">
-            <img src="img/pic3.jpg" class="img-fluid" alt="pic1">
-          </div>
-          <div class="item">
-            <img src="img/hotel.jpg" class="img-fluid" alt="pic1">
           </div>
       </div>
     </div>
@@ -94,7 +98,7 @@
   <div class="row">
     <div class="col-lg-1"></div>
     <div class="col-lg-4">
-        <img src="img/services/pic1.jpg">
+        <img src="img/pic1.jpg" class="img-fluid">
     </div>
     <div class="col-lg-1"></div>
     <div class="col-lg-6">
@@ -137,7 +141,7 @@
           </ul>
     </div>
     <div class="col-lg-4">
-        <img src="img/services/pic2.jpeg">
+        <img src="img/electrical.jpg" class="img-fluid">
     </div>
   </div>
   <br><br>
@@ -154,7 +158,7 @@
   <div class="row">
     <div class="col-lg-1"></div>
     <div class="col-lg-4">
-        <img src="img/services/pic3.jpeg">
+        <img src="img/lowVoltage.jpeg" class="img-fluid">
     </div>
     <div class="col-lg-1"></div>
     <div class="col-lg-6">
@@ -166,13 +170,13 @@
             <li>Security System.</li>
           </ul>
     </div>
-  </div> <br><br>
+  </div> <br><br><br><br>
 
   <!-- Service - 4 --->
   <div class="row">
     <div class="col-lg-1"></div>
     <div class="col">
-      <h3 style="color: #FF7F00">PUBLIC HEALTH ENGINEERING & FIRE FIGHTING SYSTEM</h3>
+      <h3 style="color: #FF7F00">PUBLIC HEALTH ENGINEERING & FIRE FIGHTING SYSTEM</h3><br>
     </div>
   </div><br>
   <div class="row">
@@ -192,7 +196,7 @@
           </ul>
     </div>
     <div class="col-lg-4">
-        <img src="img/services/pic4.jpeg">
+        <img src="img/pic5.jpg" class="img-fluid">
     </div>
   </div>
  
@@ -225,7 +229,7 @@
   <div class="row">
     <div class="col-lg-1"></div>
     <div class="col-lg-4">
-        <img src="img/services/pic1.jpg">
+        <img src="img/electrical.jpg" class="img-fluid">
     </div>
     <div class="col-lg-1"></div>
     <div class="col-lg-6">
@@ -256,7 +260,7 @@
           </ul>
     </div>
     <div class="col-lg-4">
-        <img src="img/services/pic2.jpeg">
+        <img src="img/institution.jpg" class="img-fluid">
     </div>
   </div>
   <br><br><br>
@@ -273,7 +277,7 @@
   <div class="row">
     <div class="col-lg-1"></div>
     <div class="col-lg-4">
-        <img src="img/services/pic3.jpeg">
+        <img src="img/lowVoltage.jpeg" class="img-fluid">
     </div>
     <div class="col-lg-1"></div>
     <div class="col-lg-6">
@@ -304,7 +308,7 @@
           </ul>
     </div>
     <div class="col-lg-4">
-        <img src="img/services/pic4.jpeg">
+        <img src="img/building.jpg" class="img-fluid">
     </div>
   </div>
   <br><br><br>
@@ -321,7 +325,7 @@
   <div class="row">
     <div class="col-lg-1"></div>
     <div class="col-lg-4">
-        <img src="img/services/pic5.jpeg">
+        <img src="img/electrical.jpg" class="img-fluid">
     </div>
     <div class="col-lg-1"></div>
     <div class="col-lg-6">
@@ -352,7 +356,7 @@
           </ul>
     </div>
     <div class="col-lg-4">
-        <img src="img/services/pic6.jpeg">
+        <img src="img/hvac.jpg" class="img-fluid">
     </div>
   </div>
  
